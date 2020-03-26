@@ -1,0 +1,114 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+.post{
+    border: 20px solid #bdc3c7;
+    margin: 90px auto;
+    padding: 20px;
+    max-width: 700px;
+    width: 80%;
+    font-family: 'Source Sans Pro';
+  
+
+}
+.quote{
+    border-left: 5px solid #bdc3c7;
+    padding-left: 5px;
+}
+.date{
+    letter-spacing:.3rem ;
+    color:#0097fc;
+    text-transform: uppercase;
+
+}
+h2{
+    color: #1e2730;
+    font-size: 2.0rem;
+
+}
+.copy-r{
+    letter-spacing: 4px;
+    font-weight: 400;
+    color:#2f3133 ;
+}
+.safety{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: green;
+    letter-spacing: .02em;
+}
+
+span{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: red;
+    letter-spacing: .02em;
+}
+
+.nav-bar ul{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:rgb(30, 41, 47)
+   
+
+}
+.nav-bar li{
+    
+    float: right;
+    border-left : 2px solid rgba(0, 0, 0, 0.247);
+    border-right:2px soild #fff;
+    
+   
+}
+#symb span {
+    border: gray solid 1px;
+    background-color: red;
+    border-radius: 6px;
+    color:rgb(255, 255, 255);
+    letter-spacing: .2rem;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.sources{
+    text-align: center;
+    color: rgb(44, 172, 97);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.sources a{
+    text-decoration: none;
+    border-radius: 7px;
+    border:2px solid rgb(7, 7, 7) ;
+    background-color: #4f91ee;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 3px;
+    margin: 6px;
+}
+.sources a:hover{
+    background-color:  #4170b2;
+    color: #fff;
+}
+
+
+.nav-bar li a{
+    
+    display: block;
+    color: rgba(255, 255, 255, 0.945);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.nav-bar li a:hover{
+    background: rgba(1, 188, 245, 0.753);
+    color: rgb(0, 0, 0);
+}
